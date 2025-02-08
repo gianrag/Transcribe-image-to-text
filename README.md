@@ -46,6 +46,7 @@ Extracted text will be saved in output/ as separate .txt files.
 Input (images/)
 
 images/
+
 │── invoice.jpg
 
 │── document.png
@@ -57,6 +58,7 @@ images/
 Text-extracted (Text-extracted/)
 
 Text-extracted/
+
 │── invoice.txt
 
 │── document.txt
@@ -66,8 +68,10 @@ Text-extracted/
 │── notes-column.txt   # Processed with --psm 3
 
 🛠️ **Troubleshooting**
+
 ❌ Error: "Tesseract couldn't load any languages!"
 ✅ Fix: Install the Italian OCR package → sudo apt install tesseract-ocr-ita
+
 
 ❌ Error: "Image not found!"
 ✅ Fix: Ensure images are inside the images/ folder and the filenames are correct.
