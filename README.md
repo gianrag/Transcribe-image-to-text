@@ -10,13 +10,13 @@ This Python project extracts text from images using **Tesseract OCR** and automa
 Make sure Python 3 is installed:
 
 sudo apt update
+
 sudo apt install python3 python3-venv python3-pip
+
 Create and activate a virtual environment:
 
-bash
-Copy
-Edit
 python3 -m venv myenv
+
 source myenv/bin/activate
 
 2️⃣ **Install Dependencies**
