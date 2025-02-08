@@ -37,9 +37,13 @@ python main.py
 Extracted text will be saved in output/ as separate .txt files.
 
 ⚙️ **How It Works**
+
 ✔ Reads all images inside images/.
+
 ✔ Uses Italian OCR (-l ita) for text extraction.
+
 ✔ If an image filename contains "column", it applies --psm 3 for better column detection.
+
 ✔ Saves extracted text into separate .txt files inside Text-extracted/.
 
 📝 **Example**
