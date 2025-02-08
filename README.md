@@ -70,10 +70,12 @@ Text-extracted/
 🛠️ **Troubleshooting**
 
 ❌ Error: "Tesseract couldn't load any languages!"
+
 ✅ Fix: Install the Italian OCR package → sudo apt install tesseract-ocr-ita
 
 
 ❌ Error: "Image not found!"
+
 ✅ Fix: Ensure images are inside the images/ folder and the filenames are correct.
 
 📜 **License**
